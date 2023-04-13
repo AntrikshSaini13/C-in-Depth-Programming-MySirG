@@ -8,6 +8,9 @@ int main()
     printf("Without swaping number is = %d %d\n",num1,num2);
     
     // these are aslo replace / swap two number
-    printf("With swaping number is = %d %d\n",num2,num1);
+    num1 = num1 ^ num2;
+    num2 = num1 ^ num2;
+    num1 = num1 ^ num2;
+    printf("With swaping number is = %d %d\n",num1,num2);
     return 0;
 }
