@@ -11,7 +11,7 @@ int main()
     printf("Enter year : ");
     scanf("%f",&year);
     simple_intrest=principal_price*rate_of_intrest*year/100;
-    printf("Simple intrest %.2f having Amount of loan %d and intrest of loan %.2f and year is %.2f",simple_intrest,principal_price,rate_of_intrest,year);
+    printf("Simple intrest = %.2f\n having Amount of loan = %d\nand intrest of loan %.2f\n and year is %.2f",simple_intrest,principal_price,rate_of_intrest,year);
     return 0;
 }
 
