@@ -14,18 +14,17 @@ int main()
     // scanf("%d",&num);
     for (i=1 ; i<=5 ; i++)
     {
-        k='A';
+        k=64;
         for (j=1 ; j<=5 ; j++)
         {
             if(j>=i)
             {
-                printf("%c",k);
-                k++;
+                printf("%c",k+j);
+                // k++;
             }   
             else
                 printf(" ");
         }
-        
         printf("\n");
     }
     return 0;
